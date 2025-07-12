@@ -1,0 +1,67 @@
+﻿# Операционные системы
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+.env
+.venv/
+venv/
+env/
+
+# Редакторы/IDE
+.idea/             # PyCharm/IntelliJ
+*.iml              # PyCharm/IntelliJ
+.vscode/           # VS Code (можно раскомментировать, если хотите игнорировать настройки)
+*.sublime-project  # Sublime Text
+*.sublime-workspace # Sublime Text
+
+# Тестовые и временные файлы
+.pytest_cache/
+.coverage
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.nox/
+.tox/
+
+# Логи и базы данных
+*.log
+*.sqlite3
+*.db.sqlite3
+data.db # Пример базы данных
+
+# Файлы, специфичные для пользователя
+*.bak
+*.swp
+*.swo
+
+# Зависимости
+# Если вы используете pip-tools (pip-compile/pip-sync)
+# requirements.txt
+# requirements-dev.txt
+
+# Если вы используете Poetry
+# .venv
+# poetry.lock (если не хотите коммитить)
+
+# Если вы используете Pipenv
+# .env
+# Pipfile.lock
+
+# Jupyter Notebook
+.ipynb_checkpoints/
